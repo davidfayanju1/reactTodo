@@ -1,0 +1,41 @@
+ form{
+
+    margin: 0 auto;
+    max-width: 90%;
+    .flex-items{
+         display: flex;
+         align-items: center;
+
+        input{
+             padding: 1rem;
+             width: 85%;
+             border: grey 2px solid;
+        }
+
+        button{
+             background-color: green;
+             border: none;
+             font-size: 2.85rem;
+             color: #fff;
+             margin-left: 0.6rem;
+             width: 15%;
+             cursor: pointer;
+             border-radius: 4px;
+             
+             &:hover{
+                background-color: rgb(5, 85, 5);
+                transition: all 0.5s ease-in-out;
+            }
+        }
+    }
+
+    .second-input{
+        padding: 1rem;
+        width: 100%;
+        border: grey 2px solid;
+        margin-top: 1rem;
+    }
+}
+
+
+

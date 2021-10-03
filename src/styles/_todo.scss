@@ -1,0 +1,23 @@
+.Todo{
+    display: flex;
+    justify-content: space-between;
+    border: #000 1px solid;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    border-radius: 5px;
+    margin: 1rem auto;
+    background-color: rgb(243, 243, 243);
+    max-width: 90%;
+    overflow-x: hidden;
+
+    
+    button{
+        background-color: rgb(85, 52, 59);
+        color: white;
+        border: none;
+        padding: 1rem 2rem;
+        cursor: pointer;
+        border-radius: inherit;        
+        font-weight: 700;
+    }
+}
